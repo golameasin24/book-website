@@ -42,6 +42,7 @@ import { IoBagRemove } from "react-icons/io5";
 function SearchMenu() {
   return (
     <div className="px-4 md:px-10 mt-10 sm:mt-[50px] xl:w-full">
+      <h1 className='text-center mb-5 text-2xl font-bold text-red-400'>This Site made by Golam Yeasin</h1>
       <form className="flex items-center justify-between">
         {/* Left: Book Image */}
         <div className="flex-shrink-0">
