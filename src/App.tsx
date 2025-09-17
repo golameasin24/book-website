@@ -21,6 +21,8 @@ export default function App() {
     
     <div>
           <WelcomeLine/>
+        <h1 className='text-center mb-5 text-2font-bold text-red-400 mt-5'>copyright &copy; Gloam Yeasin</h1>
+
       <div className=" flex sm:justify-between md:flex-col">
           <SearchMenu/>
           <div className="text-right sm:mt-14 mt-10">
