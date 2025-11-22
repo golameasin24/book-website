@@ -1,4 +1,13 @@
-export const bookData = [
+  export interface bookType {
+    id: number;
+    name: string;
+    image: string;
+    category: string;
+    price: string;
+    rating: number
+}
+
+export const bookData : bookType [] = [
 
     {
         id:1,
@@ -6,7 +15,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC1.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price: "ট"+ 550,
-        rating: "Yeasin Publications Ltd"
+        rating: 3
 
     },
 
@@ -16,7 +25,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC2.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price:"ট" + 777,
-        rating: "Yeasin Publications Ltd"
+        rating: 2
 
     },
 
@@ -26,7 +35,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC3.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price: "ট" + 558,
-        rating: "Yeasin Publications Ltd"
+        rating: 5
 
     },
 
@@ -36,7 +45,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC4.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price: "ট" + 577,
-        rating: "Yeasin Publications Ltd"
+        rating: 4
 
     },
 
@@ -46,7 +55,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC5.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price:"ট" + 550,
-        rating: "Yeasin Publications Ltd"
+        rating: 4
 
     },
 
@@ -56,7 +65,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC10.png",    
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price:"ট" + 1000,
-        rating: "Yeasin Publications Ltd"
+        rating: 7
 
     },
 
@@ -66,7 +75,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC7.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price: "ট" + 300,
-        rating: "Yeasin Publications Ltd"
+        rating: 8
 
     },
 
@@ -76,7 +85,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC8.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price:"ট" + 900,
-        rating: "Yeasin Publications Ltd"
+        rating: 8
 
     },
 
@@ -86,7 +95,7 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC9.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price: "ট" + 700,
-        rating: "Yeasin Publications Ltd"
+        rating: 8
 
     },
 
@@ -96,11 +105,10 @@ export const bookData = [
         image:"/AllBookImages/BOOKImage/HSC10.png",
         category:"এই বইটি মূলত HSC পরীক্ষার্থীদের জন্য তৈরি করা হয়েছে।",
         price:"ট" + 600,
-        rating: "Yeasin Publications Ltd"
+        rating: 1
 
     },
 ]
-
 
 export const logoData = [
 

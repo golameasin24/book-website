@@ -324,7 +324,7 @@ export function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
-    <div className="flex justify-between items-center w-full px-4 border-b-2 border-t-2 relative z-50 xl:w-full">
+    <div className="flex justify-between items-center w-full px-4 border-b-2 border-t-2 relative  xl:w-full">
       {/* Logo */}
       <Link to="/" className=" font-bold text-red-800 text-3xl hidden lg:block"><HiOutlineViewGrid className="lg:ml-8" /></Link>
 
@@ -334,7 +334,7 @@ export function Navigation() {
           <NavigationMenuList className="flex flex-wrap gap-2">
             <NavigationMenuItem>
               <NavigationMenuLink  asChild className={`${navigationMenuTriggerStyle()} text-[20px] font-bold  hover:text-red-500`} >
-                <Link to="/docs">হোম</Link>
+                <Link to="/">হোম</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
@@ -351,7 +351,7 @@ export function Navigation() {
 
             <NavigationMenuItem>
               <NavigationMenuLink asChild className={`${navigationMenuTriggerStyle()} text-[20px] font-bold  hover:text-red-500`}>
-                <Link to="/docs">লেখক</Link>
+                <Link to="#">লেখক</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
 
@@ -434,7 +434,7 @@ export function Navigation() {
       {/* Mobile Dropdown */}
       {mobileOpen && (
         <div className="absolute top-14 right-2 w-60 bg-white shadow-lg rounded-md p-4 flex flex-col gap-3 md:hidden max-h-[400px] overflow-y-auto z-50">
-          <Link to="/docs" className="hover:underline">হোম</Link>
+          <Link to="/" className="hover:underline">হোম</Link>
 
           <div>
             <p className="font-semibold mb-1">ক্যাটাগরিস</p>

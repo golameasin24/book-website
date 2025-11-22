@@ -1,6 +1,10 @@
 
 @import "tailwindcss";
 @import "tw-animate-css";
+.my-toast {
+  @apply w-[400px]; /* width increase */
+}
+
 
 @custom-variant dark (&:is(.dark *));
 
