@@ -71,7 +71,17 @@ const SearchBook = ({ isOpen }: { isOpen: () => void }) => {
                   />
                 </div>
 
-                <div className="ml-4">
+                <div     
+                    onClick={() => {
+                    dispatch(addToCart({
+                      id: id,
+                      name: name,
+                      price: price,
+                      image: image,
+                    }));
+                    dispatch(increment());
+                  }}
+               className="ml-4">
                   <h4 className="text-sm font-semibold">{name}</h4>
                   <span className="text-xs text-gray-500 block">{author}</span>
                   <strong className="text-sm text-theme">BDT: {price} TK</strong>
