@@ -17,7 +17,10 @@ const router = createBrowserRouter([
             {
                 path: "/from",
                 Component: CheckoutFormWithBKashAndLocation
-            }
+            },
+
+            
+            
         
         ],
     },

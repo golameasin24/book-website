@@ -20,9 +20,9 @@ export function AccordionDemo() {
         <AccordionContent className="flex flex-col gap-4 text-balance">
         <div className="text-[#6C757D]">
             <p className="text-[20px] mb-3">Purana Paltan, Dhaka 1000</p>
-            <p className="text-[20px] mb-3">Customer Care:09639002255</p>
-            <p className="text-[20px] mb-3">Sales:01896199102</p>
-            <p className="text-[20px] mb-3">Email:support@bdbooks.net</p>
+            <p className="text-[20px] mb-3">Customer Care:01884554607</p>
+            <p className="text-[20px] mb-3">Sales:01947540267</p>
+            <p className="text-[20px] mb-3">Email:goameasin.dev@gmail.com</p>
             <p className="text-[20px] mb-3 text-red-600">Whatsapp </p>
         </div>
         </AccordionContent>

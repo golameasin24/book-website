@@ -73,7 +73,7 @@ function BagPopup({ isOpenBag }: { isOpenBag: () => void }) {
 
           <div className="px-3 font-medium">{item.quantity}</div>
 
-          <button
+         <button
             onClick={() =>
               dispatch(
                 addToCart({
@@ -82,12 +82,13 @@ function BagPopup({ isOpenBag }: { isOpenBag: () => void }) {
                   price: item.price,
                   image: item.image,
                 })
-              )
-            }
-            className="px-2 text-lg font-bold"
-          >
-            +
-          </button>
+                 )
+               }
+  className="px-2 text-lg font-bold"
+>
+  +
+</button>
+
         </div>
 
         {/* Delete */}

@@ -5,7 +5,7 @@ import './index.css'
 import { Provider } from 'react-redux'
 import { store } from './app/store'
 import { RouterProvider } from 'react-router-dom'
-import router from './layouts'
+import router from './routes'
 import { ToastContainer } from 'react-toastify'
 const container = document.getElementById('root')
 

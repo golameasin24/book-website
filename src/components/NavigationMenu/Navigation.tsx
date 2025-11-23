@@ -324,12 +324,12 @@ export function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
-    <div className="flex justify-between items-center w-full px-4 border-b-2 border-t-2 relative  xl:w-full">
+    <div className="flex justify-between items-center  w-full px-4 border-b-2 border-t-2 relative  xl:w-full">
       {/* Logo */}
       <Link to="/" className=" font-bold text-red-800 text-3xl hidden lg:block"><HiOutlineViewGrid className="lg:ml-8" /></Link>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex">
+      <div className="hidden md:flex z-10">
         <NavigationMenu viewport={false}>
           <NavigationMenuList className="flex flex-wrap gap-2">
             <NavigationMenuItem>
@@ -339,7 +339,7 @@ export function Navigation() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-[20px] font-bold  hover:text-red-500">ক্যাটাগরিস</NavigationMenuTrigger>
+              <NavigationMenuTrigger className=" text-[20px] font-bold  hover:text-red-500">ক্যাটাগরিস</NavigationMenuTrigger>
               <NavigationMenuContent className="w-[200px] md:w-[400px] lg:w-[500px] absolute right-0 max-h-[200px] overflow-y-auto shadow-md rounded-md bg-white">
                 <ul className="grid gap-2 md:grid-cols-2">
                   {components.map((component) => (
@@ -356,7 +356,7 @@ export function Navigation() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-[20px] font-bold  hover:text-red-500">প্রকাশনী</NavigationMenuTrigger>
+              <NavigationMenuTrigger className="text-[20px] font-bold   hover:text-red-500">প্রকাশনী</NavigationMenuTrigger>
               <div className="w-[00px]">
                   <NavigationMenuContent className="bg-white shadow-md rounded-md">
                     <div className="">
@@ -364,7 +364,7 @@ export function Navigation() {
                           <li>
                             <div className="flex justify-between">
                                 <NavigationMenuLink asChild>
-                                  <Link to="#">
+                                  <Link to="/">
                                     <div className="font-medium">ইয়াছিন প্রকাশনী</div>
                                   <div className="text-muted-foreground">
                                         সমকালীন সাহিত্য, অনুবাদ ও গবেষণাধর্মী বই প্রকাশের জন্য বাংলাদেশে অন্যতম জনপ্রিয় প্রকাশনী।

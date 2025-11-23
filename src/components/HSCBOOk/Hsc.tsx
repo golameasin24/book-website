@@ -117,6 +117,7 @@ export default function HSC() {
       {isShow && selectedBook && (
         <ProductDetailsPopup onBook={selectedBook} isOpen={handleShow} />
       )}
+      
     </div>
        <Publication/>
        <Dwonload/>
